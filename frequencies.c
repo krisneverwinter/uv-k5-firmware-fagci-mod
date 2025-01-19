@@ -20,7 +20,7 @@
 #include "settings.h"
 
 const struct FrequencyBandInfo FrequencyBandTable[7] = {
-    [BAND1_50MHz] = {.lower = 1500000, .upper = 10799990},
+    [BAND1_50MHz] = {.lower = 500000, .upper = 10799990},
     [BAND2_108MHz] = {.lower = 10800000, .upper = 13599990},
     [BAND3_136MHz] = {.lower = 13600000, .upper = 17399990},
     [BAND4_174MHz] = {.lower = 17400000, .upper = 34999990},
